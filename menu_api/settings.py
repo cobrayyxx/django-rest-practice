@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'quickstart',
     'snippets.apps.SnippetsConfig',
-    # 'snippets'
+    'menu_app.apps.SnippetsConfig',
 ]
 
 MIDDLEWARE = [
